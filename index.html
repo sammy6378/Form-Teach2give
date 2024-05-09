@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Example</title>
+</head>
+<body>
+    <header>
+         <!-- contact form -->
+
+      <div class="contact-me">
+        <div class="close-contact-icon">
+        </div>
+        <form id="form">
+          <div class="txt-header"> <h1>Let's Partrner Together.</h1></div>
+          <small id="error"></small>
+          <div class="form-item">
+            <input type="text" name="sender" id="txt"  required>
+            <label id="col">Name:</label>
+          </div>
+          <div class="form-item">
+            <input type="text" name="email" data-field="login"  id="txt" required>
+            <label for="labelLogin" id="col">Email:</label>
+          </div>
+          <div class="form-item">
+            <input type="text" name="company" id="txt"  required>
+            <label id="col">Company:</label>
+          </div>
+          <div class="form-item">
+            <input type="text" name="Subject" id="txt"  required>
+            <label id="col">Job Title:</label>
+          </div>
+          <div class="form-item">
+            <textarea class="" name="message"  id="txt" required></textarea>
+            <label id="col">Message:</label>
+          </div>
+          
+          <button class="submit-btn" type="submit">Submit</button>  
+        </form>
+      </div>
+
+      <!-- end of contact form -->
+    </header>
+</body>
+</html>
